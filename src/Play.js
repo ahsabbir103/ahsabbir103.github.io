@@ -19,10 +19,30 @@ setText(){
 
 }
 
+class BUTTON{
+	constructor(canvas_object, x,y,height,width,fill_color, line_color){
+		this.ctx = canvas_object;
+		this.x = x;
+		this.y = y;
+		this.height = height;
+		this.width = width;
+		this.fill_color = fill_color;
+		this.line_color = line_color;
+	};
+	setButton(){
+		//todo
+	};
+}
+
 
 welcome_text = " COMMING SOON !"
 
 
+
+window.addEventListener("load",()=>{
+		alert("window is loading");
+
+});
 
 
 let canvas = document.createElement("canvas");
