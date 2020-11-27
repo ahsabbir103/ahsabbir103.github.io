@@ -6,10 +6,17 @@
 
 body {
     align-content: center;
-    background: rgba(155, 66, 184);
+    /* background: rgba(155, 66, 184); */
     /* background-image: url('../src/img/zombie_bg.png');
     background-size: cover;
     background-repeat: no-repeat; */
+}
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    display: block;
+    margin: 0 auto;
 }
 
 #allthethings {
@@ -45,7 +52,7 @@ body {
 #myGames:hover {
     background: #7A0000;
     color: white;
-    -webkit-transform: rotate(-1deg);
+    -webkit-transform: rotate(-2deg);
     transform: rotate(-2deg);
 }
 
