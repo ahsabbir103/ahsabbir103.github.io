@@ -84,6 +84,13 @@ function updateGame() {
     // if (Game.keys && Game.keys[38]) { player.speedY = -1; }
     // if (Game.keys && Game.keys[40]) { player.speedY = 1; }
 
+    // start touch event 
+    window.addEventListener("touchmove",(e)=>{
+          var tPos = e.changedTouches[0];
+          var ps = parseInt(tPos.clientX);
+          player.x = ps;
+     },false);
+
     player.newPos();
     player.update();
 }
