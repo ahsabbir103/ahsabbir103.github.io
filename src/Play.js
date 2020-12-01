@@ -34,14 +34,11 @@ var Game = {
             Game.keys[e.keyCode] = (e.type == "keydown");
         });
         
-            // start touch event 
+            // start touch event update
             window.addEventListener("touchmove",(e)=>{
                   var tPos = e.changedTouches[0];
                   var ps = parseInt(tPos.clientX);
-                if(player.x < ps){
-                    player.x = 5;
-                }
-//                   player.x = ps;
+                  player.x = ps;
              },false);
         
     },
