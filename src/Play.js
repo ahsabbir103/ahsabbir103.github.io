@@ -38,7 +38,10 @@ var Game = {
             window.addEventListener("touchmove",(e)=>{
                   var tPos = e.changedTouches[0];
                   var ps = parseInt(tPos.clientX);
-                  player.x = ps;
+                if(player.x < ps){
+                    player.x = 5;
+                }
+//                   player.x = ps;
              },false);
         
     },
