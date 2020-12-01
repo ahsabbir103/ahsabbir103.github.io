@@ -37,8 +37,7 @@ var Game = {
             // start touch event update
             window.addEventListener("touchmove",(e)=>{
                   var tPos = e.changedTouches[0];
-                  var ps = parseInt(tPos.clientX);
-                  player.x = ps;
+                  Game.touchPos = parseInt(tPos.clientX);
              },false);
         
     },
