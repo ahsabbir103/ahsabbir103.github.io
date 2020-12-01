@@ -90,6 +90,9 @@ function updateGame() {
 
     // if (Game.keys && Game.keys[38]) { player.speedY = -1; }
     // if (Game.keys && Game.keys[40]) { player.speedY = 1; }
+    
+    if(Game.touchPos > player.x){ player.speedX = -5;}
+    if(Game.touchPos < player.x){ player.speedX = 5;}
 
     player.newPos();
     player.update();
