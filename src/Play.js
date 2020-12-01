@@ -37,7 +37,12 @@ var Game = {
             // start touch event update
             window.addEventListener("touchmove",(e)=>{
                   var tPos = e.changedTouches[0];
-                  Game.touchPos = parseInt(tPos.clientX);
+                  player.x = parseInt(tPos.clientX);
+                
+//                 if(Game.touchPos > player.x){ player.speedX = -5;}
+//                 else if(Game.touchPos < player.x){ player.speedX = 5;}
+//                 else{ 
+                
              },false);
         
     },
@@ -90,9 +95,6 @@ function updateGame() {
 
     // if (Game.keys && Game.keys[38]) { player.speedY = -1; }
     // if (Game.keys && Game.keys[40]) { player.speedY = 1; }
-    
-    if(Game.touchPos > player.x){ player.speedX = -5;}
-    if(Game.touchPos < player.x){ player.speedX = 5;}
 
     player.newPos();
     player.update();
