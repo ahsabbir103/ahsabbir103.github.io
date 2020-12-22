@@ -6,8 +6,6 @@
 
 body {
     align-content: center;
-    height:100%;
-    width:100%;
     /* background: rgba(155, 66, 184); */
     /* background-image: url('../src/img/zombie_bg.png');
     background-size: cover;
@@ -17,14 +15,12 @@ body {
 canvas {
     border: 1px solid #d3d3d3;
     background-color: #f1f1f1;
-/*     display: block; */
+    display: block;
     position:absolute; 
     top:0; 
     left:0; 
-/*     width: 100vw;
-    height: 100vh; */
-    height:100%;
-    width:100%;
+    width: 100%;
+    height: 100vh;
 }
 
 #allthethings {
