@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #1D1D1D;
+    width: 100%;
+   
+}
+
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+.nav{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.socail-icon{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.socail-icon ul{list-style: none;}
+.socail-icon ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.socail-icon ul li a{color: white;}
+.mainbody{
+     position: relative;
+     float: left;
+     height:70vh;
+     width: 100%;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.content img{}
+.content h2{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    width: 60%;
+    margin: 0 auto;
+}
+footer .col-3{
+    text-align: center;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+footer .col-3 h3 {
+    color: white;
+    padding: 10px;
+}
+footer .col-3 p{
+    color: white;
+}
