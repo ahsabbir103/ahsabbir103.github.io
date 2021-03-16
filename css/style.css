@@ -27,8 +27,11 @@ body{
 }
 .nav ul li a{
     text-decoration: none;
-    color: white;
+    color: gray;
     text-transform: uppercase;
+}
+.nav ul li a:hover{
+    color: white;
 }
 
 .socail-icon{
