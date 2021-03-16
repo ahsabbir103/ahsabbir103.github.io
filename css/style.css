@@ -44,6 +44,7 @@ body{
 .socail-icon ul li a{color: white;}
 .mainbody{
      position: relative;
+     padding-bottom: 50px;
      float: left;
      height:70vh;
      width: 100%;
@@ -70,8 +71,8 @@ body{
     text-align: center;
     width: 33.33%;
     padding: 10px;
-    border-right: 2px gray solid;
     box-sizing: border-box;
+    min-height: 100px;
     float: left;
 }
 .footer-bar .col-3 h3 {
@@ -80,4 +81,11 @@ body{
 }
 .footer-bar .col-3 p{
     color: white;
+}
+
+#foobar-col0{
+    border-right: 2px gray solid;
+}
+#foobar-col2{
+    border-left: 2px gray solid;
 }
